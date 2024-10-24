@@ -1,0 +1,79 @@
+body {
+        background-image: url(./img/R.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    margin: 0;
+    height: 100vh;
+
+}
+h1{
+    align-content:first baseline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50px;
+}
+
+h3{
+color: aliceblue;font-size: medium; font-family: Arial, Helvetica,
+ sans-serif;
+}
+h2{
+    color: azure; font-size:80px; font-family:'Times New Roman',
+     Times, serif;
+}
+h3, h2{
+    margin:5px ;
+}
+hr{
+    width: 500;
+}
+p{
+    color: aliceblue;  width: 550;
+}
+header{
+    color: aliceblue;
+    padding: 10px;
+    padding-left: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); height: 50;
+}
+
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    border-style:dotted;border-color: antiquewhite;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Color por defecto */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Transición suave al cambiar de color */
+  }
+  
+  nav ul li a:hover {
+    color:cadetblue; /* Cambia el color al pasar el cursor (hover) */
+  }
+a{
+    color: white;font-family: Arial, Helvetica, sans-serif; 
+    font-style: initial; text-decoration: none;
+}
+.container-img > img{
+    width: 500; height: 500; 
+
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.733); color: white; padding: 30px; text-align: center;"
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    style="margin-bottom: 20px;"
+}
